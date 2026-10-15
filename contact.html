@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Narges MP</title>
+
+    <!-- Poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!--icons (skills, contact, footer) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    
+    <script>document.documentElement.classList.add("js");</script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-------- Header + title banner -------->
+
+<header class="page-hero">
+    <div class="divabout">
+        <nav>
+            <a href="index.html" class="logo">Narges</a>
+
+            <div class="nav-link" id="navlink">
+                <i class="xic" onclick="hideMenu()">
+                    <svg class="xicon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 6L6 18M6 6L18 18" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="port.html">Portfolio</a></li>
+                    <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </div>
+
+            <i class="menu-btn" onclick="showMenu()">
+                <svg class="micon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6H20M4 12H20M4 18H20" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </i>
+
+            <div class="nav-end">
+                <a href="contact.html" class="herbtn">Let's Talk</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="asec">
+        <div class="asec-content">
+            <h1>Contact Me</h1>
+            <p class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span aria-hidden="true">&rsaquo;</span>
+                <span aria-current="page">Contact</span>
+            </p>
+        </div>
+    </div>
+</header>
+
+
+<!-------- Contact -------->
+
+<main>
+    <section class="sec3 sec-con">
+
+        <div class="sec-head reveal">
+            <h5>Let's Work Together</h5>
+            <h2>Get In Touch</h2>
+            <p>Have a question or a project in mind? Feel free to send me a message. I’d love to hear from you!</p>
+        </div>
+
+        <div class="dcont">
+
+            <!-- Contact details -->
+            <div class="contact-info reveal-left">
+                <div class="info-items">
+                    <h3>Contact Information</h3>
+                    <p>I’m always open to discussing new projects, creative ideas, and opportunities to be part of your vision. Feel free to reach out!</p>
+                </div>
+
+                <div class="info-items">
+                <a href="mailto:nargesemihan@gmail.com" class="info-row">
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    <span class="info-text">
+                        <span class="info-label">Email</span>
+                        <span class="info-value">nargesemihan@gmail.com</span>
+                    </span>
+                </a>
+                <a href="https://www.linkedin.com/in/narges-mp-73427b379/" target="_blank" rel="noopener noreferrer" class="info-row">
+                    <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    <span class="info-text">
+                        <span class="info-label">LinkedIn</span>
+                        <span class="info-value">narges-mp</span>
+                    </span>
+                </a>
+                <a href="https://github.com/NargeseMP-dev/" target="_blank" rel="noopener noreferrer" class="info-row">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    <span class="info-text">
+                        <span class="info-label">GitHub</span>
+                        <span class="info-value">NargeseMP-dev</span>
+                    </span>
+                </a>
+                </div>
+            </div>
+
+            <!-- Message form -->
+            <form action="#" class="contact-form reveal-right">
+
+                <div class="form-row">
+                    <div class="field">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name" autocomplete="name" required>
+                    </div>
+                    <div class="field">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="jane@example.com" autocomplete="email" required>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="How can I help?">
+                </div>
+
+                <div class="field">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Tell me a little about your project…" required></textarea>
+                </div>
+
+                <button type="submit" class="herobtn form-btn">Send Message</button>
+                <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+
+        </div>
+    </section>
+</main>
+
+
+<!-------- Footer -------->
+
+<footer class="footer">
+    <div class="footer-content">
+        <a href="index.html" class="logo">Narges</a>
+
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="port.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/narges-mp-73427b379/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/NargeseMP-dev/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <hr class="footer-line">
+
+    <p class="footer-copy">&copy; 2026 Narges MP. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
