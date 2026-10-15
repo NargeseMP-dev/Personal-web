@@ -5,7 +5,7 @@ Personal website built with HTML, CSS, JavaScript
 
 My personal website built with HTML, CSS, and JavaScript.
 
-🔗 Live: https://github.com/NargeseMP-dev/Personal-web
+🔗 Live: [https://github.com/NargeseMP-dev/Personal-web](https://nargesemp-dev.github.io/Personal-web/)
 ## Built with
 - HTML
 - CSS
